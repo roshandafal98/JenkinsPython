@@ -1,4 +1,4 @@
-file=open(" ")
+file=open(" C:/Users/Roshan Dafal/Desktop/Python/sample.log")
 x=file.readlines()
 count=0
 l=[]
