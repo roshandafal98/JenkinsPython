@@ -5,7 +5,7 @@ pipeline {
         
         stage('Build'){
             steps{
-              git 'https://github.com/roshandafal98/JenkinsPython.git'
+              sh 'https://github.com/roshandafal98/JenkinsPython.git/pythonfile.py'
             }
             
         }
