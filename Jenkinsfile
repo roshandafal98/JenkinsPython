@@ -5,7 +5,7 @@ pipeline {
         
         stage('Build'){
             steps{
-               sh 'python pythonfile.py'
+               git 'python pythonfile.py'
             }
             
         }
